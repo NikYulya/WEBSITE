@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=FiraSansCondensed&display=swap');
+
+.navbar-brand img {
+    width: 50px ;
+}
+
+body {
+    font-family: FiraSansCondensed;
+    background: linear-gradient(50deg, #e08f8f 0%, #f7dede 100%);
+}
+
+
+
+.card {
+    background: linear-gradient(90deg, #f09898 0%, #ddcfcf 100%);
+}
+
+.anim
+{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
